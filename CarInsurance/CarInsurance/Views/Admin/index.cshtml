@@ -1,0 +1,31 @@
+﻿@using CarInsurance.Models
+
+@model List<Insuree>
+
+
+
+<div class="row no-gutters m-3">
+    <div class="card col mx-auto shadow">
+        <div class="card-header text-center">
+            <h3 class="m-0">Quotes and Contact Info!</h3>
+        </div>
+
+    </div>
+    @foreach (var quote in Model)
+    {
+        <div class="row">
+            <div class="col">
+                <span>@quote.FirstName @quote.LastName</span>
+            </div>
+            <div class="col">
+                <span>@quote.EmailAddress</span>
+            </div>
+            <div class="col">
+                <span>$@Math.Round(quote.Quote, 2)</span>
+            </div>
+        </div>
+        <br>
+    }
+    <br>
+
+</div>
