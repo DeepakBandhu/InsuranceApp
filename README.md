@@ -1,1 +1,2 @@
 This project allows a person to get an insurance rate and the price changes depending on the car and the driver's record.
+For example, if a driver's vehicle is a certain year and make their rate will go up, if they have any tickets that aren't parking related or any dui's then that will be added onto their rates, all of this is compiled at the end and there is an additional option to be clicked yes or no and after that they can confirm the process and recieve the total amount at the end of filling the form out.
